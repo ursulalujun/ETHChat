@@ -20,10 +20,10 @@ contract ETHChat is funcDef {
         _;
     }
 
-    function register(string memory _name) public {
+    function register(string memory _name, uint _Avater) public {
         require(members[msg.sender].isMember == false);
 
-        Member memory newMember = Member(_name, 0, true);
+        Member memory newMember = Member(_name, 0, true, _Avater);
         members[msg.sender] = newMember;
     }
 
@@ -60,12 +60,12 @@ contract ETHChat is funcDef {
 
     function updateProfile(string memory _name, uint _Avater) public onlyMember {
         members[msg.sender].name = _name;
-        emit _profileUpdate(msg.sender, _name, Avater);
+        emit _profileUpdate(msg.sender, _name, _Avater);
     }
 
     function sendMessage(
         address to,
-        string memory message,
+        string memory message
     ) public onlyMember {
         require(relationships[to][msg.sender] == RelationshipType.Connected);
 

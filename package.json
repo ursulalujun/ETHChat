@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/learnerLj/ETHChat/issues"
   },
-  "homepage": "https://github.com/learnerLj/ETHChat#readme"
+  "homepage": "https://github.com/learnerLj/ETHChat#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
