@@ -4,7 +4,6 @@ import "./funcDef.sol";
 pragma solidity 0.8.6;
 
 contract ETHChat is funcDef {
-    constructor() {}
 
     /**
     @notice the relation of two members
@@ -59,15 +58,14 @@ contract ETHChat is funcDef {
         emit _unblockContact(msg.sender, from);
     }
 
-    function updateProfile(string memory _name) public onlyMember {
+    function updateProfile(string memory _name, uint _Avater) public onlyMember {
         members[msg.sender].name = _name;
-        emit _profileUpdate(msg.sender, _name);
+        emit _profileUpdate(msg.sender, _name, Avater);
     }
 
     function sendMessage(
         address to,
         string memory message,
-        bytes32 encryption
     ) public onlyMember {
         require(relationships[to][msg.sender] == RelationshipType.Connected);
 

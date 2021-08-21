@@ -5,7 +5,7 @@ interface funcDef {
     event _messageSent(address indexed from, address indexed to, string hash);
     event _addContact(address indexed from, address indexed to);
     event _contactaddApproved(address indexed from, address indexed to);
-    event _profileUpdate(address indexed from, string name);
+    event _profileUpdate(address indexed from, string name, uint Avater);
     event _blockContact(address indexed from, address indexed to);
     event _unblockContact(address indexed from, address indexed to);
 
@@ -19,6 +19,7 @@ interface funcDef {
         string name;
         uint256 messageStartBlock;
         bool isMember;
+        uint Avater;
     }
 
     /**
