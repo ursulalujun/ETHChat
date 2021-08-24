@@ -22,34 +22,33 @@ App = {
     return App.initContract();
   },
 
-  accessToAccounts: function () {
+  accessToAccounts:  function () {
     try {
-      await ethereum.request({ method: 'eth_requestAccounts' });
+       ethereum.request({ method: 'eth_requestAccounts' });
     } catch (error) {
       console.error("User denied account access")
     }
   },
 
   initContract: async function () {
-    $.getJSON("ETHChat.json", function (election) {
-      abstratContract = TruffleContract(election);
+    $.getJSON("ETHChat.json", function (res) {
+      abstratContract = TruffleContract(res);
       abstratContract.setProvider(App.web3Provider);
       abstratContract.deployed().then((i) => instance = i);
-      App.listenForEvents();
+      // App.listenForEvents();
 
-      return App.render();
     });
   },
 
-  listenForEvents: function () {
-    instance.votedEvent({
-      fromBlock: 0,
-      toBlock: 'latest'
-    }, function (error, event) {
-      console.log(event); App.render();
-    });
-    // .on("data", function (event) { App.render() });
-  },
+  // listenForEvents: function () {
+  //   this.instance.votedEvent({
+  //     fromBlock: 0,
+  //     toBlock: 'latest'
+  //   }, function (error, event) {
+  //     console.log(event); App.render();
+  //   });
+  //   // .on("data", function (event) { App.render() });
+  // },
 
 
 };
