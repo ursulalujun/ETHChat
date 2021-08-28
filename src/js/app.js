@@ -1,8 +1,6 @@
 App = {
   web3Provider: null,
-  account: '0x0',
-  instance: {},
-  abstratContract: {},
+  contracts: {},
 
   init: async function () {
     return await App.initWeb3();
@@ -32,9 +30,9 @@ App = {
 
   initContract: async function () {
     $.getJSON("ETHChat.json", function (res) {
-      abstratContract = TruffleContract(res);
-      abstratContract.setProvider(App.web3Provider);
-      abstratContract.deployed().then((i) => instance = i);
+      App.contracts.ETHChat = TruffleContract(res);
+      App.contracts.ETHChat.setProvider(App.web3Provider);
+      App.contracts.ETHChat.deployed().then((i) => App.contracts.ETHChatInstance = i);
       // App.listenForEvents();
 
     });
