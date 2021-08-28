@@ -33,20 +33,20 @@ App = {
       App.contracts.ETHChat = TruffleContract(res);
       App.contracts.ETHChat.setProvider(App.web3Provider);
       App.contracts.ETHChat.deployed().then((i) => App.contracts.ETHChatInstance = i);
-      // App.listenForEvents();
+      App.sendMessageEvents();
 
     });
   },
 
-  listenForEvents: function () {
-    App.contracts.ETHChatInstance.({
+  sendMessageEvents: function () {
+    App.contracts.ETHChatInstance._messageSent({
       fromBlock: 0,
       toBlock: 'latest'
     }, function (error, event) {
-      console.log(event); App.render();
+      console.log(event);
     });
     // .on("data", function (event) { App.render() });
-  },
+  }
 
 
 };
