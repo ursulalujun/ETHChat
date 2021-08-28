@@ -20,9 +20,9 @@ App = {
     return App.initContract();
   },
 
-  accessToAccounts:  function () {
+  accessToAccounts: function () {
     try {
-       ethereum.request({ method: 'eth_requestAccounts' });
+      ethereum.request({ method: 'eth_requestAccounts' });
     } catch (error) {
       console.error("User denied account access")
     }
@@ -34,6 +34,7 @@ App = {
       App.contracts.ETHChat.setProvider(App.web3Provider);
       App.contracts.ETHChat.deployed().then((i) => App.contracts.ETHChatInstance = i);
       App.sendMessageEvents();
+      // App.listenForEvents();
 
     });
   },
@@ -44,10 +45,28 @@ App = {
       toBlock: 'latest'
     }, function (error, event) {
       console.log(event);
-    });
-    // .on("data", function (event) { App.render() });
-  }
+    })
+      // .on("data", function (event) { console.log(event); });
+  },
 
+  listenForEvents: function () {
+    App.contracts.ETHChat.deployed().then(function (instance) {
+      instance._messageSent({
+        fromBlock: 0,
+        toBlock: 'latest'
+      }, function (error, event) {
+        console.log(event);
+      })
+        // .on("data", function (event) {  console.log(event); });
+    });
+  },
+
+  PastEvent: function () {
+    App.contracts.ETHChatInstance.getPastEvents('_messageSent', function (error, events) { console.log(events); })
+      .then(function (events) {
+        console.log(events) // 与上述可选回调结果相同
+      });
+  }
 
 };
 

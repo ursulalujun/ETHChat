@@ -4,11 +4,11 @@ import "./funcDef.sol";
 pragma solidity 0.8.6;
 
 contract ETHChat is funcDef {
-
     /**
     @notice the relation of two members
      */
-    mapping(address => mapping(address => RelationshipType)) relationships;
+    mapping(address => mapping(address => RelationshipType))
+        public relationships;
 
     /**
     @notice the profile the member including name, the blocknumber when sending first message, 
@@ -20,7 +20,7 @@ contract ETHChat is funcDef {
         _;
     }
 
-    function register(string memory _name, uint _Avater) public {
+    function register(string memory _name, uint256 _Avater) public {
         require(members[msg.sender].isMember == false);
 
         Member memory newMember = Member(_name, 0, true, _Avater);
@@ -28,8 +28,12 @@ contract ETHChat is funcDef {
     }
 
     function addContact(address addr) public onlyMember {
-        require(relationships[msg.sender][addr] == RelationshipType.NoRelation);
-        require(relationships[addr][msg.sender] == RelationshipType.NoRelation);
+        require(
+            relationships[msg.sender][addr] == RelationshipType.NoRelation &&
+                relationships[addr][msg.sender] ==
+                RelationshipType.NoRelation &&
+                addr != msg.sender
+        );
 
         relationships[msg.sender][addr] = RelationshipType.Requested;
         emit _addContact(msg.sender, addr);
@@ -58,15 +62,15 @@ contract ETHChat is funcDef {
         emit _unblockContact(msg.sender, from);
     }
 
-    function updateProfile(string memory _name, uint _Avater) public onlyMember {
+    function updateProfile(string memory _name, uint256 _Avater)
+        public
+        onlyMember
+    {
         members[msg.sender].name = _name;
         emit _profileUpdate(msg.sender, _name, _Avater);
     }
 
-    function sendMessage(
-        address to,
-        string memory message
-    ) public onlyMember {
+    function sendMessage(address to, string memory message) public onlyMember {
         require(relationships[to][msg.sender] == RelationshipType.Connected);
 
         if (members[to].messageStartBlock == 0) {
