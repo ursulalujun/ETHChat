@@ -38,15 +38,15 @@ App = {
     });
   },
 
-  // listenForEvents: function () {
-  //   this.instance.votedEvent({
-  //     fromBlock: 0,
-  //     toBlock: 'latest'
-  //   }, function (error, event) {
-  //     console.log(event); App.render();
-  //   });
-  //   // .on("data", function (event) { App.render() });
-  // },
+  listenForEvents: function () {
+    App.contracts.ETHChatInstance.({
+      fromBlock: 0,
+      toBlock: 'latest'
+    }, function (error, event) {
+      console.log(event); App.render();
+    });
+    // .on("data", function (event) { App.render() });
+  },
 
 
 };
