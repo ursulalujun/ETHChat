@@ -1,5 +1,5 @@
 # ETHChat
-##使用步骤
+## 使用步骤
 1. 克隆仓库 `git clone git@github.com:learnerLj/ETHChat.git`
 2. 配置区块链测试环境 
 安装集成开发框架 truffle `npm install -g truffle`
