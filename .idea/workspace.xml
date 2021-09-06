@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fed1e285-ef0b-4705-8bf9-9636f9e95746" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ETHChat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/encrypt/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/encrypt/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/exercise/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/exercise/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/images/ActionGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/images/Boss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/images/Character.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/images/Monster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/images/ms-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/pages/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/pages/picture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html/script/metamask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/images/wechat-sprit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/js/jquery-1.12.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/css/jquery.emoji.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/emoji/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/72.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/73.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/74.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/75.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/76.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/77.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/78.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/79.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/80.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/81.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/82.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/83.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/84.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/85.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/86.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/87.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/88.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/89.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/90.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/qq/91.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/img/tieba/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/js/jquery-1.12.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-emoji/js/jquery.emoji.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-mCustomScrollbar/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-mCustomScrollbar/css/jquery.mCustomScrollbar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-mCustomScrollbar/css/railscasts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-mCustomScrollbar/script/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-mCustomScrollbar/script/jquery.mCustomScrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-mCustomScrollbar/script/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/lib/jquery-mCustomScrollbar/script/jquery.mousewheel-3.0.6.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xeie9eDEstHvpXnrUlrgNkNaAM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\BigCreate\ETHChat\src\js" />
+      <recent name="D:\Documents\BigCreate\ETHChat\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fed1e285-ef0b-4705-8bf9-9636f9e95746" name="Default Changelist" comment="" />
+      <created>1630722048409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630722048409</updated>
+      <workItem from="1630722049906" duration="988000" />
+      <workItem from="1630724059514" duration="4392000" />
+      <workItem from="1630737657007" duration="6745000" />
+      <workItem from="1630753725599" duration="8692000" />
+      <workItem from="1630845493801" duration="3409000" />
+      <workItem from="1630889902137" duration="3619000" />
+      <workItem from="1630894732011" duration="320000" />
+      <workItem from="1630905524228" duration="672000" />
+      <workItem from="1630909568018" duration="621000" />
+      <workItem from="1630914793227" duration="723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
