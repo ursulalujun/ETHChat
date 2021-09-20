@@ -42,8 +42,9 @@ App = {
 
     });
   },
-
-  sendMessageEvents: function () {
+  /*
+  //发送消息事件
+  messageSentEvent: function () {
     App.contracts.ETHChatInstance._messageSent({
       fromBlock: 0,
       toBlock: 'latest'
@@ -52,6 +53,7 @@ App = {
     })
       // .on("data", function (event) { console.log(event); });
   },
+
 
   listenForEvents: function () {
     App.contracts.ETHChat.deployed().then(function (instance) {
@@ -64,6 +66,7 @@ App = {
         // .on("data", function (event) {  console.log(event); });
     });
   },
+  */
 
   PastEvent: function () {
     App.contracts.ETHChatInstance.getPastEvents('_messageSent', function (error, events) { console.log(events); })
@@ -120,28 +123,76 @@ App = {
     }
     let message = new Buffer($('#message').val());
     let encryptedMessage = ecies.encrypt(new Buffer(receiverPublicKey, 'hex'), message).toString('base64');
+
     App.contracts.ETHChatInstance.sendMessage(message, $('#receiver').val()).then(() => {
         $('#message').val('');
         App.success('Message sent successfully.')
+      // 把自己发送的消息显示在对话框里
+        $('.box-bd').append(`
+        <div class="message-box">
+           <div class="my message">
+            <img class="avatar" src="${avatar}" alt="" />
+              <div class="content">
+               <div class="bubble">
+                  <div class="bubble_cont">${message}</div>
+               </div>
+              </div>
+            </div>
+        </div>
+    `)
       }).catch((err) => {
         App.error('Error sending message: ' + err.message);
       });
   },
 
-    decryptMessage: function (){
-    try {
-      //将content从str转化为buffer
-      const plainText = new Buffer(content);
-      //对明文进行加密
-      const cipherText = ecies.encrypt(publicKey, plainText);
-      console.info(cipherText)
+  decryptMessage: async (message) => {
+    let encryptedMessage = new Buffer(message, 'base64');
+    // Decrypt message with account private key.
+    return ecies.decrypt(new Buffer(sessionStorage.getItem(KEY_PK), 'hex'), encryptedMessage).toString();
+  },
 
-    } catch(e){}
+  receiveMessage: async (err, result) => {
+    if (!err) {
+      //if (result.to === web3.eth.accounts[0]&&$('#receiver').val()==result.msg.sender)
+      /*?这里不太懂怎么提取消息
+      if (result.args.receiver === web3.eth.accounts[0] && !App.messages[result.args.hash]) {
+                        App.loadMessage(result.args.sender, result.args.hash, result.args.time,
+       */
+      if (result.to === web3.eth.accounts[0]) {
+        let decryptedMessage = await App.decryptMessage(result.message);
+        let sender = result.msg.sender;
+        $('.box-bd').append(`
+        <div class="message-box">
+         <div class="other message">
+          <img class="avatar" src="${sender.avatar}" alt="" />
+           <div class="content">
+             <div class="nickname">${sender.username}</div>
+              <div class="bubble">
+               <div class="bubble_cont">${decryptedMessage}</div>
+              </div>
+             </div>
+           </div>
+         </div>
+    `)
+      }
+    } else {
+      App.error('Error getting message: ' + err.message);
+    }
+  },
+
+  //这个函数负责监听所有事件，包括发送，接收消息，导入私钥
+  bindEvents: () => {
+    $('#sendMessageButton').click(App.sendMessage);
+    $('#importPrivateKey').click(() => {
+      $('#pk').val('');
+      $('#pkModal').modal('show');
+    });
+    $('#confirmPk').click(App.setPrivateKey);
+    let messageSentEvent = App.contracts.ETHChatInstance._messageSent();
+    messageSentEvent.watch(App.receiveMessage);
   }
-
-
-
 };
+
 
 $(function () {
   $(window).load(function () {
